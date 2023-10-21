@@ -692,11 +692,16 @@ border-radius: 50%;
 background-color: var(--color-cornflower);
 border: 1px solid rgba(0, 0, 0, 0.10);
 cursor: pointer;
+transition-property: background-color,border;
+transition-duration: 250ms;
+transition-timing-function: calc(0.4, 0, 0.2, 1);
+
 }
 
 .button-close-modal:hover,
 .button-close-modal:focus{
     background-color: var(--color-ocean);
+    border: none;
 }
 
 .icon-close:hover,
