@@ -622,7 +622,8 @@ transform: translateY(100%);
 }
 
 
-.image-class-link:hover .wrapper-text{
+.image-class-link:hover .wrapper-text,
+.image-class-link:focus .wrapper-text{
     transform: translateY(0%);
 }
 
