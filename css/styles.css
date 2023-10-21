@@ -629,6 +629,12 @@ transform: translateY(0%);
     translate: 0;
 }
 
+.image-class-link:hover,
+.image-class-link:focus
+{
+transform: translateY(0%);
+}
+
 
 .modal-window{
     position: fixed;
