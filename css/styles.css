@@ -677,7 +677,6 @@ pointer-events: none;
 
 .icon-close{
     
-    fill: var(--color-navy-blue);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -692,7 +691,9 @@ top:24px;
 right: 24px;
 width: 24px;
 height: 24px;
+padding: 0;
 border-radius: 50%;
+color: var(--color-navy-blue);
 background-color: var(--color-cornflower);
 border: 1px solid rgba(0, 0, 0, 0.10);
 cursor: pointer;
@@ -706,14 +707,11 @@ transition-duration: 250ms;
 .button-close-modal:focus{
     background-color: var(--color-ocean);
     border: none;
-    
+    fill: var(--color-white);
     
 }
 
-.icon-close:hover,
-.icon-close:focus{
-fill: var(--color-white);
-}
+
 
 
 
