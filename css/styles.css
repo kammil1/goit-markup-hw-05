@@ -38,7 +38,7 @@ body{
 
 
 .link{
-    
+    display: inline-block;
     text-decoration: none;
    
     
@@ -46,7 +46,6 @@ body{
 }
 
 .logo{
-
 font-family: 'Raleway', sans-serif;
 color: var(--color-iris);
     font-size: 18px;
