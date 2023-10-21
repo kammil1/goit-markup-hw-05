@@ -706,11 +706,17 @@ transition-duration: 250ms;
 .button-close-modal:focus{
     background-color: var(--color-ocean);
     border: none;
-    fill: var(--color-white);
+    
+    
 }
 
 .icon-close:hover,
 .icon-close:focus{
-    fill: var(--color-white);
+fill: var(--color-white);
 }
+
+
+
+
+
 
