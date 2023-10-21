@@ -69,6 +69,9 @@ color: var(--color-navy-blue);
 
 .list-card{
     width: calc((100% - 48px) / 3);
+        transition-property: box-shadow color background-color border-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -569,9 +572,7 @@ gap: 40px;
 
 .image-class-link{
     display: block;
-    transition-property: box-shadow color background-color border-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .image-class-link:hover,
 .image-class-link:focus{
