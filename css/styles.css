@@ -430,7 +430,7 @@ height: 88px;
 border-radius: 4px;
 color: var(--color-light-slate);
 border: 1px solid var(--LIGHT-SLATE, #8E8F99); 
-transition-property: color, border;
+transition-property: border-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
