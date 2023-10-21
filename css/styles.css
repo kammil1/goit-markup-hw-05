@@ -606,7 +606,7 @@ transform: translateY(0%);
     overflow: hidden;
 }
 
-.figaption-text{
+.wrapper-text{
     color: var(--color-cloud);
     padding-top: 40px;
     padding-left: 32px;
@@ -614,7 +614,7 @@ transform: translateY(0%);
    
 }
 
-.image-wrapper figcaption{
+.image-wrapper p {
     
     position: absolute;
     inset: 0;
@@ -626,7 +626,7 @@ transform: translateY(0%);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.image-wrapper:hover figcaption{
+.image-wrapper:hover p{
 translate: 0;
 opacity: 1;
 }
