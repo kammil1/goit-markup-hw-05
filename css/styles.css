@@ -40,7 +40,8 @@ body{
 .link{
     
     text-decoration: none;
-    display: inline-block;
+   
+    
     
 }
 
@@ -73,22 +74,21 @@ color: var(--color-navy-blue);
 
 
 
-.child{
+.underline{
     position: relative;
-    border-bottom: 4px solid var(--color-ocean);
     color: var(--color-ocean);
     font-weight: 500;
-    padding: 24px 0;
-    transition-property: color;
+        padding: 24px 0;
+        transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    
 }
 
-.child::after{
+.underline::after{
     content: '';
         position: absolute;
+        width: 100%;
         left: 0;
         bottom: -1px;
         height: 4px;
@@ -100,7 +100,6 @@ color: var(--color-navy-blue);
 
 
 .list-nav{
-position: relative;
 color: var(--color-navy-blue);
 font-weight: 500;
 padding: 24px 0;
