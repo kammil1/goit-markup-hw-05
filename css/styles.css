@@ -68,10 +68,7 @@ color: var(--color-navy-blue);
 }
 
 .list-card{
-    width: calc((100% - 48px) / 3);
-        transition-property: box-shadow color background-color border-color;
-            transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    width: calc((100% - 48px) / 3);   
 }
 
 
@@ -502,7 +499,7 @@ margin-right: 120px;
     padding: 12px 24px;
     border-radius: 4px;
     border: 1px solid var(--color-cornflower);
-    transition-property: background-color,color,border,box-shadow;
+    transition-property: box-shadow color background-color border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
