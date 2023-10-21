@@ -572,6 +572,9 @@ gap: 40px;
 
 .image-class-link{
     display: block;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .image-class-link:hover,
@@ -609,9 +612,7 @@ transform: translateY(0%);
 
 .wrapper-text{
     color: var(--color-cloud);
-    padding-top: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 40px 32px;
    
 }
 
