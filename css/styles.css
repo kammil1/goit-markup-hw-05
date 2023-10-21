@@ -76,6 +76,12 @@ color: var(--color-navy-blue);
 .child{
     position: relative;
     color: var(--color-ocean);
+    font-weight: 500;
+    padding: 24px 0;
+    transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
     
 }
 
