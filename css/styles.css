@@ -508,6 +508,8 @@ margin-right: 120px;
 
 .list-card-text{
     color: var(--color-slate);
+    margin-top: 8px;
+
 }
 
 .filter-button:hover,
