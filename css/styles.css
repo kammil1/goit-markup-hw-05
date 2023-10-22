@@ -141,7 +141,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     background-image: linear-gradient(
     var(--GREY, rgba(46, 47, 66, 0.70)),
     var(--GREY, rgba(46, 47, 66, 0.70))),
-    url(./images/hero-image.jpg);
+    url(/images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
